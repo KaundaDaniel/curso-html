@@ -23,11 +23,52 @@
                     <input id="ctrl-name" name="name" type="text" placeholder="Digite seu nome">
                 </div>
                 <div class=""><label for="ctrl-email">Email</label>
-                <input type="email" name="email" id="ctrl-email" placeholder="Digite o seu email">
-            </div>
-            <div class=""><label for="ctrl-password">Senha</label>
-                <input type="password" name="ctrl-password" placeholder="Senha">
-            </div>
+                    <input type="email" name="email" id="ctrl-email" placeholder="Digite o seu email">
+                </div>
+                <div class=""><label for="ctrl-password">Senha</label>
+                    <input type="password" name="ctrl-password" placeholder="Senha">
+                </div>
+
+
+                <div class=""><label for="ctrl-city">Cidades</label>
+
+                    <select name="city" id="ctrl-city">
+                        <option value="1">Luanda</option>
+                        <option value="2">Benguela</option>
+                        <option value="3">Huambo</option>
+                        <option value="4">Bengo</option>
+
+                    </select>
+                </div>
+                <div class="">
+
+                    <label for="ctrl-level">Escolaridade</label>
+                    <div class="">
+
+                        <label for="ctrl-level-1">Fundamental</label>
+                        <input type="radio" name="level" id="ctrl-level-1">
+                        <label for="ctrl-level-2">Medio</label>
+                        <input type="radio" name="level" id="ctrl-level-2">
+                        <label for="ctrl-level-3">Superior</label>
+                        <input type="radio" name="level" id="ctrl-level-3">
+                    </div>
+                    <div class="">
+                        <label for="ctrl-language">Linguagens que voce conhece</label>
+                        <div class="" id="ctrl-language">
+                            <input type="checkbox" name="language1" id="ctrl-java">
+                            <label for="ctrl-java">Java</label>
+                            <input type="checkbox" name="language2" id="ctrl-python">
+                            <label for="ctrl-python">Python</label>
+                            <input type="checkbox" name="language3" id="ctrl-javascript">
+                            <label for="ctrl-javascript">JavaScript</label>
+                            <input type="checkbox" name="language4" id="ctrl-C#">
+                            <label for="ctrl-C#">C#</label>
+                            <input type="checkbox" name="language4" id="ctrl-C">
+                            <label for="ctrl-C">C</label>
+                        </div>
+                    </div>
+
+                </div>
                 <input type="submit" value="Send">
                 <input type="reset" value="apagar Dados">
             </form>
